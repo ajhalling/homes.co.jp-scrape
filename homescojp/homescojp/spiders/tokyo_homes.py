@@ -2,7 +2,7 @@
 import scrapy
 
 
-target = ['https://www.homes.co.jp/chintai/tokyo/list/']
+target = ['https://www.homes.co.jp/chintai/tokyo/list/yh']
 
 class TokyoHomesSpider(scrapy.Spider):
     name = 'tokyo_homes'
